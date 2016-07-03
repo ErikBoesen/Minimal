@@ -93,17 +93,17 @@ button:hover {
     fill: #1E90FF
 }
 button {
-  transition: 300ms;
-  transition-timing-function: ease-in-out;
-  -webkit-transition: 300ms;
-  -webkit-transition-timing-function: ease-in-out;
+    transition: 300ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 300ms;
+    -webkit-transition-timing-function: ease-in-out;
 }
 button:hover {
     border-color: #1E90FF
 }
 button {
-  transition: 360ms;
-  transition-timing-function: ease-in-out;
-  -webkit-transition: 360ms;
-  -webkit-transition-timing-function: ease-in-out;
+    transition: 360ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 360ms;
+    -webkit-transition-timing-function: ease-in-out;
 }

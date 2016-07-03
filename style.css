@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: Arial;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 280px;
+}
+.float-container {
+    position: fixed;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+ul {
+    margin-left: 550px;
+    padding-top: 40px;
+    cursor: default;
+    list-style: none;
+    top: 10px;
+}
+ul li {
+    display: inline-block;
+    margin: 2px;
+}
+ul a {
+    cursor: default;
+}
+ul svg {
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    border: solid 1px black;
+    padding: 4px;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+ul svg:hover {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+li:first-child svg:hover {
+    border-color: #ff6f32;
+    fill: #ff6f32;
+}
+li:nth-child(2) svg:hover {
+    border-color: #4fec51;
+    fill: #4fec51;
+}
+li:nth-child(3) svg:hover {
+    border-color: #dd4e41;
+    fill: #dd4e41;
+}
+li:nth-child(4) svg:hover {
+    border-color: #55acee;
+    fill: #55acee;
+}
+li:nth-child(5) svg:hover {
+    border-color: #f56040;
+    fill: #f56040;
+}
+li:nth-child(6) svg:hover {
+    border-color: #ff0084;
+    fill: #ff0084;
+}
+button {
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    border: solid 2px black;
+    background: white;
+    outline: 0;
+    cursor: pointer;
+}
+button svg {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+button:hover {
+    fill: #1E90FF
+}
+button {
+  transition: 300ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 300ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+button:hover {
+    border-color: #1E90FF
+}
+button {
+  transition: 360ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 360ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
